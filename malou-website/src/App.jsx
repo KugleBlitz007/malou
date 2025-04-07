@@ -1,26 +1,37 @@
-import Avatar from './components/profileSample.jsx';
-import Clock from './components/clock.jsx';
-
-function Card({ children }) {
+function Item({ name, isPacked }) {
+  let itemContent = name;
+  if (isPacked) {
+    itemContent = (
+      <del>
+        {name + " ✅"}
+      </del>
+    );
+  }
   return (
-    <div className="card">
-      {children}
-    </div>
+    <li className="item">
+      {itemContent}
+    </li>
   );
 }
 
-export default function Profile() {
+export default function PackingList() {
   return (
-    <div>
-      <Avatar
-        size={100}
-        person={{ 
-          name: 'Katsuko Saruhashi',
-          imageId: 'YfeOqp2'
-        }}
-      />
-    
-    <Clock />
-    </div>
+    <section>
+      <h1>Sally Ride's Packing List</h1>
+      <ul>
+        <Item 
+          isPacked={true} 
+          name="Space suit" 
+        />
+        <Item 
+          isPacked={true} 
+          name="Helmet with a golden leaf" 
+        />
+        <Item 
+          isPacked={false} 
+          name="Photo of Tam" 
+        />
+      </ul>
+    </section>
   );
 }
