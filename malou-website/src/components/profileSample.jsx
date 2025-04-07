@@ -1,21 +1,13 @@
-export function Profile() {
-    return (
-      <img
-        src="https://i.imgur.com/QIrZWGIs.jpg"
-        alt="Alan L. Hart"
-      />
-    );
-  }
-  
-  export default function Gallery() {
-    return (
-      <section>
-        <h1>Amazing scientists</h1>
-        <Profile />
-        <Profile />
-        <Profile />
-      </section>
-    );
-  }
+import { getImageUrl } from './utils.jsx';
 
-  
+export default function Avatar({ person, size }) {
+  return (
+    <img
+      className="avatar"
+      src={getImageUrl(person)}
+      alt={person.name}
+      width={size}
+      height={size}
+    />
+  );
+}
