@@ -12,4 +12,9 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 ## When clonning the website, cd to malou-website  and run : npm install 
+
+## This app uses tailwind, use this install guide https://tailwindcss.com/docs/installation/using-vite
+
+## This app uses flowbite with tailwind : npm install flowbite
+
 ## Starting the website with : npm run dev
