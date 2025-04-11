@@ -19,3 +19,5 @@ If you are developing a production application, we recommend using TypeScript an
 ## Mobile needs this too : npm install flowbite-react
 
 ## Starting the website with : npm run dev
+
+## if wanting to run over a network for virtual device debugging using chrome tools :  npm run dev -- --host
