@@ -1,7 +1,7 @@
 import malouLogo from '../assets/logo.png';
 import '../index.css';
 
-export default function NavBar() {
+export default function navBar() {
   return (
     <nav className="border-green-200 bg-green-900 sticky top-0 z-50 shadow-md">
       <div className="max-w-screen-xl mx-auto px-4 py-4 flex items-center justify-between">
