@@ -21,7 +21,7 @@ export default function Form() {
       </div>
 
 
-      <div id="News" className="pt-24 w-full flex justify-center bg-white/70 shadow-lg backdrop-blur-sm p-4 mt-4"> 
+      <div id="News" className="scroll-mt-24 w-full flex justify-center bg-white/70 shadow-lg backdrop-blur-sm p-4"> 
         <IgReels  />      
       </div>
       
