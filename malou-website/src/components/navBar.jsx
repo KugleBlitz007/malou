@@ -15,9 +15,17 @@ export default function navBar() {
         <div className="hidden md:flex flex-1 justify-center">
           <ul className="flex space-x-10 text-white font-medium">
             <li><a href="#" className="hover:text-green-600">Home</a></li>
-            <li><a href="#" className="hover:text-green-600">News</a></li>
-            <li><a href="#" className="hover:text-green-600">Join</a></li>
-            <li><a href="#" className="hover:text-green-600">About</a></li>
+            <li><a href="#News" 
+            onClick={(e) => {
+              e.preventDefault();
+              document.querySelector('#News').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              });
+            }}
+            className="hover:text-green-600">News</a></li>
+            <li><a href="https://docs.google.com/forms/d/1PHTyb86DdeZZEMI5imUf7hVbkCOl7mLGx-un8-daawM/viewform?edit_requested=true#responses" className="hover:text-green-600">Join</a></li>
+            <li><a href="https://www.larotonde.ca/malou-un-bout-de-madagascar-a-luniversite-dottawa/#" className="hover:text-green-600">About</a></li>
           </ul>
         </div>
 
@@ -62,9 +70,17 @@ export default function navBar() {
           <div className="absolute right-4 mt-2 hidden peer-checked:block bg-green-900 border border-green-200 rounded-lg shadow-lg z-50">
             <ul className="text-white font-medium">
               <li><a href="#" className="block px-4 py-2 hover:bg-green-700">Home</a></li>
-              <li><a href="#" className="block px-4 py-2 hover:text-green-600">News</a></li>
-              <li><a href="#" className="block px-4 py-2 hover:text-green-600">Join</a></li>
-              <li><a href="#" className="block px-4 py-2 hover:text-green-600">About</a></li>
+              <li><a href="#News" 
+              onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('#News').scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }}
+              className="block px-4 py-2 hover:text-green-600">News</a></li>
+              <li><a href="https://docs.google.com/forms/d/1PHTyb86DdeZZEMI5imUf7hVbkCOl7mLGx-un8-daawM/viewform?edit_requested=true#responses" className="block px-4 py-2 hover:text-green-600">Join</a></li>
+              <li><a href="https://www.larotonde.ca/malou-un-bout-de-madagascar-a-luniversite-dottawa/#" className="block px-4 py-2 hover:text-green-600">About</a></li>
             </ul>
           </div>
         </div>

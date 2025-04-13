@@ -5,14 +5,14 @@ import IgReels from './components/igReels.jsx';
 
 export default function Form() {
   return (
-    <>
+    <div className="scroll-smooth">
       <NavBar />
 
-      <div className='sticky top-0 -z-50 '>
+      <div className='md:-m-24 sticky top-0 -z-50'>
         <BackgroundVideo />
 
         <div className="absolute inset-0 flex justify-center items-center ">
-          <h1 className="text-white text-4xl md:text-6xl font-bold text-center">
+          <h1 className="md:pb-10 text-white text-4xl md:text-6xl font-bold text-center">
             Welcome to Malou
           </h1>
         </div>
@@ -21,7 +21,7 @@ export default function Form() {
       </div>
 
 
-      <div className="w-full flex justify-center bg-white/70 shadow-lg backdrop-blur-sm p-4 mt-4"> 
+      <div id="News" className="pt-24 w-full flex justify-center bg-white/70 shadow-lg backdrop-blur-sm p-4 mt-4"> 
         <IgReels  />      
       </div>
       
@@ -34,6 +34,6 @@ export default function Form() {
      
      
       
-    </>
+    </div>
   );
 }

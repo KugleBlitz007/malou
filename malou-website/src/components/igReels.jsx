@@ -29,7 +29,7 @@ const InstagramReels = () => {
   return (
     <section className="max-w-screen-xl mx-auto px-4 py-8 ">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-green-900">
-        Latest Instagram Reels
+        Our latest Instagram Reels
       </h2>
 
       {/* Desktop View: 3 Reels */}
