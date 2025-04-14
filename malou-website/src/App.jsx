@@ -3,6 +3,7 @@ import Background from './assets/logo.jpg';
 import BackgroundVideo from './components/backgroundVideo';
 import IgReels from './components/igReels.jsx';
 import GetToKnow from './components/getToKnow.jsx';
+import ContactUs from './components/contactUs.jsx';
 
 export default function Form() {
   return (
@@ -35,7 +36,9 @@ export default function Form() {
           <img src={Background} alt="Malou Background" className="w-full h-auto" />
       </div>
       
-   
+      <div>
+          <ContactUs />
+      </div>
      
      
       

@@ -15,6 +15,8 @@ If you are developing a production application, we recommend using TypeScript an
 
 ## This app uses tailwind, use this install guide https://tailwindcss.com/docs/installation/using-vite or just : npm install tailwindcss @tailwindcss/vite
 
+## Some more imports : npm install react-icons
+
 ## Starting the website with : npm run dev
 
 ## if wanting to run over a network for virtual device debugging using chrome tools :  npm run dev -- --host
