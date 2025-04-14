@@ -2,6 +2,7 @@ import NavBar from './components/navBar.jsx';
 import Background from './assets/logo.jpg';
 import BackgroundVideo from './components/backgroundVideo';
 import IgReels from './components/igReels.jsx';
+import GetToKnow from './components/getToKnow.jsx';
 
 export default function Form() {
   return (
@@ -18,6 +19,10 @@ export default function Form() {
         </div>
 
 
+      </div>
+
+      <div className="w-full flex justify-center bg-white/70 shadow-lg backdrop-blur-sm p-4"> 
+             <GetToKnow />
       </div>
 
 
