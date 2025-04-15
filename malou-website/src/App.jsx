@@ -32,9 +32,9 @@ export default function Form() {
       </div>
       
 
-      <div className="w-full flex justify-center">
+      {/* <div className="w-full flex justify-center">
           <img src={Background} alt="Malou Background" className="w-full h-auto" />
-      </div>
+      </div> */}
       
       <div>
           <ContactUs />

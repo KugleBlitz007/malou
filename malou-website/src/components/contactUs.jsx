@@ -25,12 +25,12 @@ export default function ContactUs() {
                     <li>
                         {" "}
                         <FaTwitter className="text-sky-500" />{" "}
-                        <a href="https://www.instagram.com/" className="text-white hover:text-sky-500">Twitter</a>
+                        <a href="https://www.twitter.com/" className="text-white hover:text-sky-500">Twitter</a>
                     </li>                    
                     <li>
                         {" "}
                         <FaInstagram className="text-orange-500" />{" "}
-                        <a href="https://www.facebook.com/" className="text-white hover:text-orange-500">Instagram</a>
+                        <a href="https://www.instagram.com/" className="text-white hover:text-orange-500">Instagram</a>
                     </li>                
                 </ul>
             </div>
