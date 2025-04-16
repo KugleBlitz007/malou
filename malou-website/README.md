@@ -13,11 +13,15 @@ If you are developing a production application, we recommend using TypeScript an
 
 ## When clonning the website, cd to malou-website  and run : npm install 
 
+## Install this on vscode for react shortcuts
+
 ## This app uses tailwind, use this install guide https://tailwindcss.com/docs/installation/using-vite or just : npm install tailwindcss @tailwindcss/vite
 
 ## This app uses flowbite with tailwind : npm install flowbite
 ## Mobile needs this too : npm install flowbite-react
 
+## Need this for internal rooting : npm install react-router-dom
+
 ## Starting the website with : npm run dev
 
-## if wanting to run over a network for virtual device debugging using chrome tools :  npm run dev -- --host
+## if wanting to run over a network for virtual device debugging using chrome tools :  npm run dev host
