@@ -1,7 +1,7 @@
 import NavBar from './components/navBar.jsx';
 import Background from './assets/logo.jpg';
 import BackgroundVideo from './components/backgroundVideo';
-import IgReels from './components/igReels.jsx';
+import QuickLinks from './components/quickLinks.jsx';
 import GetToKnow from './components/getToKnow.jsx';
 import ContactUs from './components/contactUs.jsx';
 
@@ -29,7 +29,7 @@ export default function App() {
 
 
       <div id="News" className="scroll-mt-24 w-full flex justify-center bg-white/70 shadow-lg backdrop-blur-sm p-4"> 
-        <IgReels  />      
+        <QuickLinks  />      
       </div>
       
 

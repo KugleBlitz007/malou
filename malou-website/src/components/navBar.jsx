@@ -10,16 +10,18 @@ export default function navBar() {
     <nav className="border-green-200 bg-green-900 sticky top-0 z-50 shadow-md">
       <div className="max-w-screen-xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="https://www.instagram.com/malou_uottawa/" className="flex items-center space-x-3">
+        <Link to ="/malou/" className="flex items-center space-x-3">
           <img src={malouLogo} className="h-8" alt="Malou Logo" />
           <span className="text-2xl font-semibold text-white">MALOU</span>
-        </a>
+        </Link>
 
         {/* Center Nav Links (Desktop) */}
         <div className="hidden md:flex flex-1 justify-center">
           <ul className="flex space-x-10 text-white font-medium">
             <li><Link to ="/malou/" className="hover:text-green-600">Home</Link></li>
-            <li><a href="#News" 
+            <li><Link to ="/malou/Events" className="hover:text-green-600">Events</Link></li>
+
+            {/* <li><a href="#News" 
             onClick={(e) => {
               e.preventDefault();
               document.querySelector('#News').scrollIntoView({
@@ -27,7 +29,8 @@ export default function navBar() {
                 block: 'start'
               });
             }}
-            className="hover:text-green-600">News</a></li>
+            className="hover:text-green-600">News</a></li> */}
+
             <li><a href="https://docs.google.com/forms/d/1PHTyb86DdeZZEMI5imUf7hVbkCOl7mLGx-un8-daawM/viewform?edit_requested=true#responses" className="hover:text-green-600">Join</a></li>
             <li><Link to ="/malou/AboutUs" className="hover:text-green-600">About</Link></li>
           </ul>
@@ -74,7 +77,8 @@ export default function navBar() {
           <div className="absolute right-4 mt-2 hidden peer-checked:block bg-green-900 border border-green-200 rounded-lg shadow-lg z-50">
             <ul className="text-white font-medium">
               <li><Link to ="/malou/" className="block px-4 py-2 hover:bg-green-700">Home</Link></li>
-              <li><a href="#News" 
+              <li><Link to ="/malou/Events" className="block px-4 py-2 hover:bg-green-700">Events</Link></li>
+              {/* <li><a href="#News" 
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector('#News').scrollIntoView({
@@ -82,7 +86,7 @@ export default function navBar() {
                   block: 'start'
                 });
               }}
-              className="block px-4 py-2 hover:text-green-600">News</a></li>
+              className="block px-4 py-2 hover:text-green-600">News</a></li> */}
               <li><a href="https://docs.google.com/forms/d/1PHTyb86DdeZZEMI5imUf7hVbkCOl7mLGx-un8-daawM/viewform?edit_requested=true#responses" className="block px-4 py-2 hover:text-green-600">Join</a></li>
               <li><Link to ="/malou/AboutUs" className="block px-4 py-2 hover:text-green-600">About</Link></li>
             </ul>

@@ -6,6 +6,7 @@ import App from './App.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import AboutUs from './pages/AboutUs.jsx'
 import NotFound from './pages/NotFound.jsx'
+import Events from './pages/Events.jsx'
 
 
 const router = createBrowserRouter([{
@@ -15,6 +16,10 @@ const router = createBrowserRouter([{
 {
   path: '/malou/AboutUs',
   element: <AboutUs />,
+},
+{
+  path: '/malou/Events',
+  element: <Events />,
 },
 {
   path: '*', // This will reroute any weird route to not found

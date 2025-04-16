@@ -1,5 +1,4 @@
 import React from 'react';
-import latest1 from '../assets/latest1.jpg';
 import latest2 from '../assets/latest2.jpg';
 import latest3 from '../assets/latest3.jpg';
 
@@ -7,9 +6,9 @@ import latest3 from '../assets/latest3.jpg';
 const reels = [
   {
     id: 1,
-    title: 'Celebrating Madagascar Culture',
-    videoUrl: 'https://www.instagram.com/p/DIB591ls23o/',
-    thumbnail: latest1
+    title: 'MALOU : Un bout de Madagascar à l’Université d’Ottawa',
+    videoUrl: 'https://www.larotonde.ca/malou-un-bout-de-madagascar-a-luniversite-dottawa/#',
+    thumbnail: 'https://www.larotonde.ca/wp-content/uploads/2025/03/club-malgache-2048-x-2048-px-768x768.jpg.webp'
   },
   {
     id: 2,
@@ -29,7 +28,7 @@ const InstagramReels = () => {
   return (
     <section className="max-w-screen-xl mx-auto px-4 py-8 ">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-green-900">
-        Our latest Instagram Reels
+        Quick links
       </h2>
 
       {/* Desktop View: 3 Reels */}

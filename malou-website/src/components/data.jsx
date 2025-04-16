@@ -122,4 +122,34 @@ const profiles = [
       },
   ];
 
-  export default profiles;
+  const events = [
+    {
+      id: 1,
+      title: 'BTCC - Business Technology Case Competition',
+      date: '29 March',
+      organizers: 'BTA x HTH',
+      location: 'CRX 140',
+      time: '9 am - 4 pm',
+      image: 'https://i.imgur.com/KHSh29w.jpeg',
+      coming: true,
+      registerLink: 'https://example.com/register-btcc',
+      description: 'Join us for an exciting case competition exploring innovation in business technology.',
+      gallery: [],
+    },
+    {
+      id: 2,
+      title: 'Women in Tech Panel',
+      date: '5 February',
+      organizers: 'WIT Club',
+      location: 'STM 204',
+      time: '1 pm - 3 pm',
+      image: 'https://i.imgur.com/KHSh29w.jpeg',
+      coming: false,
+      registerLink: '',
+      description: 'An empowering discussion with female leaders in technology sharing their journey.',
+      gallery: ['https://i.imgur.com/KHSh29w.jpeg', 'https://i.imgur.com/KHSh29w.jpeg', 'https://i.imgur.com/KHSh29w.jpeg', 'https://i.imgur.com/KHSh29w.jpeg', 'https://i.imgur.com/KHSh29w.jpeg', 'https://i.imgur.com/KHSh29w.jpeg', 'https://i.imgur.com/KHSh29w.jpeg'],
+    },
+  ];
+  
+
+  export {profiles, events};

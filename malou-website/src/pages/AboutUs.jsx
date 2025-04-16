@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../components/navBar.jsx';
 import ProfileCard from '../components/profileCard.jsx';
-import profiles from '../components/data.jsx';
+import {profiles} from '../components/data.jsx';
 import ContactUs from '../components/contactUs.jsx';
 import Background from '../assets/Logo-Officielle-EN.png';
 
