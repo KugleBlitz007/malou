@@ -17,10 +17,7 @@ If you are developing a production application, we recommend using TypeScript an
 
 ## This app uses tailwind, use this install guide https://tailwindcss.com/docs/installation/using-vite or just : npm install tailwindcss @tailwindcss/vite
 
-## This app uses flowbite with tailwind : npm install flowbite
-## Mobile needs this too : npm install flowbite-react
-
-## Need this for internal rooting : npm install react-router-dom
+## Some more imports : npm install react-icons
 
 ## Starting the website with : npm run dev
 
