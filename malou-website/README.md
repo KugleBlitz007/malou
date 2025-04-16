@@ -22,3 +22,12 @@ If you are developing a production application, we recommend using TypeScript an
 ## Starting the website with : npm run dev
 
 ## if wanting to run over a network for virtual device debugging using chrome tools :  npm run dev host
+
+
+
+#
+# Implementation for later : make the navbar # and Contact Us components to be the sole elements of the main app, then link everything else as their child to displey them inbetween them
+#
+#
+#
+#
