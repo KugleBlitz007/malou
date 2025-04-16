@@ -9,6 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  assetsInclude: ['**/*.png', '**/*.PNG', '**/*.heic', '**/*.HEIC'],
   /*
   build: {
     outDir: 'dist',

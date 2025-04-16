@@ -16,21 +16,11 @@ export default function ContactUs() {
 
             <div className="md:order-2">
                 <h2 className="text-lg font-bold mb-4 text-white">Follow Us</h2>
-                <ul className="flex space-x-4">
-                    <li>
-                        {" "}
-                        <FaFacebookF className="text-blue-500" />{" "}
-                        <a href="https://www.facebook.com/" className="text-white hover:text-blue-500">Facebook</a>
-                    </li>
-                    <li>
-                        {" "}
-                        <FaTwitter className="text-sky-500" />{" "}
-                        <a href="https://www.twitter.com/" className="text-white hover:text-sky-500">Twitter</a>
-                    </li>                    
+                <ul className="flex space-x-4">                  
                     <li>
                         {" "}
                         <FaInstagram className="text-orange-500" />{" "}
-                        <a href="https://www.instagram.com/" className="text-white hover:text-orange-500">Instagram</a>
+                        <a href="https://www.instagram.com/malou_uottawa/" className="text-white hover:text-orange-500">Instagram</a>
                     </li>                
                 </ul>
             </div>
