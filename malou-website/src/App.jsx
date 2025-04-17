@@ -8,10 +8,10 @@ import ContactUs from './components/contactUs.jsx';
 
 export default function App() {
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth  ">
       <NavBar />
 
-      <div className='md:-m-24 sticky top-0 -z-50'>
+      <div className='md:-mt-24 sticky top-0 -z-50 '>
         <BackgroundVideo />
 
         <div className="absolute inset-0 flex justify-center items-center ">
@@ -28,7 +28,7 @@ export default function App() {
       </div>
 
 
-      <div id="News" className="scroll-mt-24 w-full flex justify-center bg-white/70 shadow-lg backdrop-blur-sm p-4"> 
+      <div className="scroll-mt-24 w-full flex justify-center bg-white/70 shadow-lg backdrop-blur-sm p-4"> 
         <QuickLinks  />      
       </div>
       

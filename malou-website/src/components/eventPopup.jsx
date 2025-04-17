@@ -28,7 +28,13 @@ export default function EventPopup({ event, onClose }) {
           {!event.coming && event.gallery.length > 0 && (
             <div className="grid grid-cols-2 gap-4 mb-4">
               {event.gallery.map((img, index) => (
-                <img key={index} src={img} alt={`Gallery ${index}`} className="w-full h-32 object-cover rounded" />
+                <img 
+                key={index} 
+                src={img} 
+                alt={`Gallery ${index}`} 
+                className="w-full h-32 object-cover rounded" 
+                loading="lazy"
+                />
               ))}
             </div>
           )}
@@ -39,7 +45,7 @@ export default function EventPopup({ event, onClose }) {
               href={event.registerLink}
               target="_blank"
               rel="noreferrer"
-              className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+              className="border border-black text-black px-4 py-2 rounded hover:bg-green-700"
             >
               REGISTER
             </a>

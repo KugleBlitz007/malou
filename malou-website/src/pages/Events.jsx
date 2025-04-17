@@ -14,14 +14,18 @@ export default function Events() {
         <NavBar />
 
 
-        <h2 className="text-3xl font-bold text-center text-green-900">Upcoming Events</h2>
+        <h2 className="text-3xl font-bold text-center text-green-900 p-8">Upcoming Events</h2>
       {events.filter(e => e.coming).map(event => (
+        <div key={event.id} className="px-4">
         <EventCard key={event.id} event={event} />
+        </div>
       ))}
 
-      <h2 className="text-3xl font-bold text-center text-green-900 mt-16">Past Events</h2>
+      <h2 className="text-3xl font-bold text-center text-green-900 p-8">Past Events</h2>
       {events.filter(e => !e.coming).map(event => (
+        <div key={event.id} className="px-4 pb-4">
         <EventCard key={event.id} event={event} />
+        </div>
       ))}
 
 
