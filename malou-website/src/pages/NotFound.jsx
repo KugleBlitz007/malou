@@ -1,6 +1,6 @@
 ///////////////// Production version ///////////////////////
 
-/* import React from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 import NavBar from '../components/navBar.jsx';
 import ContactUs from '../components/contactUs.jsx';
@@ -22,12 +22,12 @@ export default function NotFound() {
         <ContactUs />
     </div>
   )
-} */
+}
 
 
 ////////////////// Developement version ///////////////////////
 
-import React from 'react'
+/* import React from 'react'
 import {Link} from 'react-router-dom'
 import NavBar from '../components/navBar.jsx';
 import ContactUs from '../components/contactUs.jsx';
@@ -50,3 +50,4 @@ export default function NotFound() {
     </div>
   )
 }
+ */

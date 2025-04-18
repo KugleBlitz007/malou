@@ -1,6 +1,6 @@
 ///////////////// Production version ///////////////////////
 
-/* import { StrictMode } from 'react';
+import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './App.css';
 import './index.css';
@@ -26,11 +26,11 @@ createRoot(document.getElementById('root')).render(
       </Routes>
     </HashRouter>
   </StrictMode>
-); */
+);
 
 ////////////////// Developement version ///////////////////////
 
-import { StrictMode } from 'react'
+/* import { StrictMode } from 'react'
  import { createRoot } from 'react-dom/client'
  import './App.css'
  import './index.css'
@@ -64,4 +64,4 @@ import { StrictMode } from 'react'
   <StrictMode>
     <RouterProvider router={router} />
   </StrictMode>,
-)
+) */
