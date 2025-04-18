@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <script>
-      // Redirect to index.html and preserve path
-      const redirectTo = location.pathname.replace('/malou', '') || '/';
-      location.replace('/malou/' + '#' + redirectTo);
+      const redirectTo = location.pathname.replace(/^\/malou/, '');
+      location.replace('/malou/#' + redirectTo);
     </script>
   </head>
   <body>
