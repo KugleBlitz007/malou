@@ -19,12 +19,12 @@ export default function EventCard({ event }) {
           <p className="text-sm mb-4">L'heure: {event.time}</p>
 
           <div className="flex gap-4">
-            {event.coming && (
+            {event.coming && event.registerLink && (
               <a
                 href={event.registerLink}
                 target="_blank"
                 rel="noreferrer"
-                className="border text-white text-sm px-4 py-2 rounded hover:bg-purple-700"
+                className="border text-white text-sm px-4 py-2 rounded hover:bg-green-900"
               >
                 S'INSCRIRE
               </a>

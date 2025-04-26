@@ -181,7 +181,7 @@ const profiles = [
       time: 'TBA',
       image: amu,
       coming: true,
-      registerLink: 'https://example.com/register-btcc',
+      registerLink: '',
       description: "Nous prévoyons de collaborer avec l'A.M.U. pour organiser une série d'événements. Restez connectés pour plus de détails !",
       gallery: [],
     },
