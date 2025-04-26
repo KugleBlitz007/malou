@@ -7,11 +7,13 @@ export default function ContactUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="md:order-1">
                 <h2 className="text-lg font-bold mb-4 text-white">
-                    About Us
+                À propos de nous
                 </h2>
                 <p className="text-gray-300">
-                We are a welcoming, francophone student association that celebrates Malagasy culture and the beauty of Madagascar through events,
-                workshops, and activities. Whether you're Malagasy or just curious, MALOU is a vibrant space to connect, share, and thrive!
+                Nous sommes une association étudiante francophone et accueillante qui célèbre 
+                la culture malgache et la beauté de Madagascar à travers des événements, 
+                des ateliers et des activités. Que vous soyez malgache ou simple curieux, MALOU 
+                est un espace dynamique pour se connecter, partager et s'épanouir !
                 </p>
             </div>
 
@@ -28,7 +30,7 @@ export default function ContactUs() {
         </div>
 
         <div className=" pt-6 text-gray-300 text-center mt-6 hover:text">
-            <p>© 2025 website by <a href="https://github.com/KugleBlitz007" className="hover:text-amber-300">Johann Rajosefa</a></p>
+            <p>© 2025 site Web par <a href="https://github.com/KugleBlitz007" className="hover:text-amber-300">Johann Rajosefa</a></p>
         </div>
     </footer>
   )

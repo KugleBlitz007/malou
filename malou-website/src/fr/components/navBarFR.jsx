@@ -1,7 +1,7 @@
 ///////////////// Production version ///////////////////////
 
-import malouLogo from '../assets/logo.png';
-import '../index.css';
+import malouLogo from '../../assets/logo.png';
+import '../../index.css';
 import {Link} from 'react-router-dom'
 // import { useParams } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ export default function navBar() {
     <nav className="border-green-200 bg-green-900 sticky top-0 z-50 shadow-md">
       <div className="max-w-screen-xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link to ="/en" className="flex items-center space-x-3">
+        <Link to ="/" className="flex items-center space-x-3">
           <img src={malouLogo} className="h-8" alt="Malou Logo" />
           <span className="text-2xl font-semibold text-white">MALOU</span>
         </Link>
@@ -20,8 +20,8 @@ export default function navBar() {
         {/* Center Nav Links (Desktop) */}
         <div className="hidden md:flex flex-1 justify-center">
           <ul className="flex space-x-10 text-white font-medium">
-            <li><Link to ="/en" className="hover:text-green-600">Home</Link></li>
-            <li><Link to ="/Events" className="hover:text-green-600">Events</Link></li>
+            <li><Link to ="/" className="hover:text-green-600">Accueil</Link></li>
+            <li><Link to ="/fr/Events" className="hover:text-green-600">Événements</Link></li>
 
             {/* <li><a href="#News" 
             onClick={(e) => {
@@ -34,7 +34,7 @@ export default function navBar() {
             className="hover:text-green-600">News</a></li> */}
 
             <li><a href="https://docs.google.com/forms/d/1PHTyb86DdeZZEMI5imUf7hVbkCOl7mLGx-un8-daawM/viewform?edit_requested=true#responses" className="hover:text-green-600">Join</a></li>
-            <li><Link to ="/AboutUs" className="hover:text-green-600">About</Link></li>
+            <li><Link to ="/fr/AboutUs" className="hover:text-green-600">À propos</Link></li>
           </ul>
         </div>
 
@@ -42,16 +42,19 @@ export default function navBar() {
         <div className="flex-1 md:flex-none flex justify-center md:justify-end relative">
 
           
-          <Link to ="/" className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-lg cursor-pointer hover:bg-green-700 hover:text-white">
-          <img src="https://flagcdn.com/w40/fr.png" className="w-5 h-5 rounded-full me-3 inline-block" alt="French Flag" />
-          Français {''}
+          <Link to ="/en" className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-lg cursor-pointer hover:bg-green-700 hover:text-white">
+          <img src="https://rlv.zcache.ca/canadian_flag_of_canada_maple_leaf_square_sticker-r466748126c7c46ce87a0a1262a765921_0ugra_8byvr_200.webp" className="w-5 h-5 rounded-full me-3" alt="Canada Flag" />
+            English (CA) {''}
           </Link>
 
           <div className="absolute hidden peer-checked:block top-full mt-2 w-48 border border-green-200 rounded-lg shadow-md bg-green-700 z-50">
             <ul className="py-2 text-sm text-white">
               <li>
                 <a href="#" className="block px-4 py-2 hover:bg-green-600">
-                  <img src="https://rlv.zcache.ca/canadian_flag_of_canada_maple_leaf_square_sticker-r466748126c7c46ce87a0a1262a765921_0ugra_8byvr_200.webp" className="w-5 h-5 rounded-full me-3" alt="Canada Flag" />
+                <img src="https://flagcdn.com/w40/fr.png" className="w-5 h-5 rounded-full me-3 inline-block" alt="French Flag" />
+                Français {''}
+
+            <img src="https://rlv.zcache.ca/canadian_flag_of_canada_maple_leaf_square_sticker-r466748126c7c46ce87a0a1262a765921_0ugra_8byvr_200.webp" className="w-5 h-5 rounded-full me-3" alt="Canada Flag" />
             English (CA) {''}
                 </a>
               </li>
@@ -78,8 +81,8 @@ export default function navBar() {
           {/* Mobile Menu */}
           <div className="absolute right-4 mt-2 hidden peer-checked:block bg-green-900 border border-green-200 rounded-lg shadow-lg z-50">
             <ul className="text-white font-medium">
-              <li><Link to ="/en" className="block px-4 py-2 hover:bg-green-700">Home</Link></li>
-              <li><Link to ="/Events" className="block px-4 py-2 hover:bg-green-700">Events</Link></li>
+              <li><Link to ="/" className="block px-4 py-2 hover:bg-green-700">Accueil</Link></li>
+              <li><Link to ="/fr/Events" className="block px-4 py-2 hover:bg-green-700">Événements</Link></li>
               {/* <li><a href="#News" 
               onClick={(e) => {
                 e.preventDefault();
@@ -90,7 +93,7 @@ export default function navBar() {
               }}
               className="block px-4 py-2 hover:text-green-600">News</a></li> */}
               <li><a href="https://docs.google.com/forms/d/1PHTyb86DdeZZEMI5imUf7hVbkCOl7mLGx-un8-daawM/viewform?edit_requested=true#responses" className="block px-4 py-2 hover:text-green-600">Join</a></li>
-              <li><Link to ="/AboutUs" className="block px-4 py-2 hover:text-green-600">About</Link></li>
+              <li><Link to ="/fr/AboutUs" className="block px-4 py-2 hover:text-green-600">À propos</Link></li>
             </ul>
           </div>
         </div>

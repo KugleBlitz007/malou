@@ -9,6 +9,13 @@ import AboutUs from './pages/AboutUs.jsx';
 import NotFound from './pages/NotFound.jsx';
 import Events from './pages/Events.jsx';
 
+import AppFR from './fr/AppFR.jsx';
+import AboutUsFR from './fr/pages/AboutUsFR.jsx';
+import NotFoundFR from './fr/pages/NotFoundFR.jsx';
+import EventsFR from './fr/pages/EventsFR.jsx';
+
+
+
 import {
   HashRouter,
   Routes,
@@ -19,10 +26,14 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<AppFR />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Events" element={<Events />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/en" element={<App />} />
+        <Route path="/fr/AboutUs" element={<AboutUsFR />} />
+        <Route path="/fr/Events" element={<EventsFR />} />
+        <Route path="/fr/*" element={<NotFoundFR />} />
       </Routes>
     </HashRouter>
   </StrictMode>
