@@ -77,10 +77,10 @@ malou-website/
 ```
 
 ## Future Enhancements
-- 🔄 Implement navbar and Contact Us components as main app elements
-- 📱 Enhanced mobile responsiveness
-- 🎨 Additional UI/UX improvements
-- 📊 Analytics integration
+- Implement navbar and Contact Us components as main app elements
+- Enhanced mobile responsiveness
+- Additional UI/UX improvements
+- Analytics integration
 
 ## Contributing
 1. Fork the repository
