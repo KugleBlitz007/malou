@@ -1,4 +1,4 @@
-![Malou Website Banner](src/assets/banner.png)
+![Malou Website Banner](malou-website/src/assets/Logo-Officielle-EN.png)
 
 # Malou Website
 
